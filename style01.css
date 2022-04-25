@@ -1,0 +1,119 @@
+   *{padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+        
+    li{display: inline-block;
+    padding: 10px;
+    margin: 10px;}
+        
+    li a{text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roserifman', ;
+    font-size: 60px;}
+
+    ul{text-align: center;
+    padding-top: 35px;}
+        
+    a:hover{color: #494343;}
+        
+    header{background-color: rgb(218, 165, 32);
+    height: 150px;}
+
+    h1{background-image: url(https://images.pexels.com/photos/1666067/pexels-photo-1666067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    text-align: center;
+    color: rgb(218, 165, 32);
+    background-color: #630505;
+    height: 400px;
+    font-size: 100px;
+    padding-top: 75px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+        
+    section{display: flex;
+   flex-wrap: wrap;}
+        
+    div{width: 20%;
+    margin: 0;}
+
+    @media(max-width: 1201px)
+    {
+      div{width: 30%;
+         margin: 0;}
+    }
+
+    @media(max-width: 1025px)
+    {
+      div{width: 40%;
+         margin: 0;}
+    }
+
+    @media(max-width: 769px)
+    {
+      div{width: 50%;
+         margin: 0;}
+    }
+
+    @media(max-width: 481px)
+    {
+      div{width: 60%;
+         margin: 0;}
+    }
+
+    @media(max-width: 320px)
+    {
+      div{width: 70%;
+         margin: 0;}
+    }
+        
+    img{padding: 0;
+    margin: 0;}
+
+    figure{text-align: center;
+    padding: 5px;}
+    
+    figcaption{text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    background-color: rgb(218, 165, 32);
+    padding: 30px; 
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+    figcaption:hover{background-color: grey;}
+    
+    p{text-align: center;
+    color: rgb(8, 8, 8);
+    font-size: 100px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    width: 1800px;}
+
+    .one{display: block;}
+
+    span{color: #be1b1b;
+    text-decoration: underline dashed;}
+    span:hover{background-color: rgb(218, 165, 32);
+    color: white;}
+        
+    .two a{text-decoration: none;
+    text-align: center;
+    background-color: #630505;
+    font-size: 100px;
+    color: white;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 50px;}
+        
+    .two a:hover{background-color: rgb(218, 165, 32);
+    color: black;
+    cursor: grab;}
+
+    footer{background-color: grey;
+    padding: 150px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAR8AAACvCAMAAADzNCq+AAAAflBMVEX39/cAAAD////8/PxBQUEpKSkuLi7Kysp6enqfn59GRkbV1dXi4uKNjY319fWpqam1tbXo6Oh0dHQYGBi7u7vFxcWXl5fv7+/c3Nxqamo5OTklJSXPz8+CgoJNTU2mpqZbW1scHBySkpJjY2N/f38QEBA7OztSUlILCwtcXFwMMz1RAAAIKElEQVR4nO2da0PqMAyGoVWuiqIgCIiCIuf8/z94wLWTZmuTKazJWZ+PMuYW0i6Xt12rlUgkEolEIpFIJBKJhGCUvvFw+Cj2xUVH3zy0vTzPVezri4ya+K1z5K7ZBtLdsHna7Umzh9gSs097FPsSI6KR0fU1whrsQOoFt8+gyfZ5xu3TnjfXQKpHsM9tcx9h+pVgn8fYVxmRMcE+7WmDB9iWYJ/35g6wln4nGGgc+yojop9w+7w2d4Adhths8nQL2A4c+1w12T4HF9IKMnUdaNhsA5Wwc+zz0eAZuhR169jnsclJahl66A6whlc5iqgrxz5/0wBz0XcpBAoCMo+nNMBcQOljkezjokEItEoGAmxACKQ5wKcjB1P7Kw4MeisuT1I9b7PkL5dYVa1jm6KcBRMDwRCIDT0mQ2wW2xA+mASrKqBciAqTliXenI8El46Tvo5tiXK42EcRatMxYDK+Wq2b2JYo5ya2XSxqH9sUZSyYDK/DBHQf2xZlMKq1jGLbogxG3RQo8OhcE9hkxz4ihxnp2iN+zo1zDRs+5mnplWufVaFTVoL5zvY8hx34cK7hhc30c0B3nGt7Jlyb7X08hI+1c1sfd4dH5xpYyUl033WgGeE7Jip4Q+xj0t977HahD5OvvRZACEQJzUxpf4DYp090B9CrpLhwjag35+ooas3R5utQpKRvtaFoYRsMcWatSigBJqg19eLryE24jmUbJGgwDOqYlBFeJyNXqkDIDW3vNXwnNjbHijlgBkRmtfoBGukN4Rt7imfozIo7zB+0W+Zlp9WCUgX88WpHDhLnZsWTJXY20Mhlk5vmqE/nAnG1Jm3mNeMWa8yCKvgnt+FVFEmj1V9tOmfhJ43xizVyw8oVkDLKTXOAh6MzgP3Jw7HSmOaOoEnAKDfNAT8hqtYkZQ62/Yg0a0B4sWRonoJUAfsNbV0/GArYk26RKNLtobDKTb/ZVLtI4xrBBJWanjLOTXNACISqNSkJqp31w+kpbDFVv/Y6gFIFLAWyCWroMJt1hj2Cd26ao1w9PabWHGWDohO0jyl6hScz3rlpTlW1ZnZXy9A4tEH2PHgi5rlpDohC+mExWZ6gho6x6WnwRG6Dkl1umgPVmqtuiJUZjpPQMVnW8mdKOZGBTd+0AA+pAhNdSyn4RgIX54rt8CIuxLwwHHPTHAZqTY65aU58teY1Z/MwkCowzU0tIAT6/Oj5MdFAJ3CMaRvtQ6dx/2OXtf9AqcJnqGFuErC3wCG2exo4xC18/4ltAAQYAoV+TryDapeVB9JTkJsi7fz4gFwxdL02QfUfYb0x8EwSkpvmQLVmIFk0HdRAocjWbAPtGim5aQ6QKgQqWzZB9ScEePcUbOwgYAUskCqsA/bBO6hZeroLeJgbcPHNTXNgCOS/e0IHNcvnAt1T0FXinJtaRn+cS956Xd4WrP3POBNN+bun4MfgnJvmgBDo2nugnTv8zxzjHXu/id2mG0GFFx+yVAHvoBr7+AvuQFnMOjfNMc9ti/fubNfT+6tbS3s3PgF9U965aQ5VrWklld6U0nZPvSUd0DflsmIHAzxUvOPnBnMwM/v6tQ5u35R5bppDVWtiHVTriL4YEyR7u3Ncex1Q1ZrGz7xSD5t7+vxCWm6aM3L93jcvGImvt4OKpafSctMcqlozuz+vxNdGNx7/gw1//rmppRAClXdSbcN+5mm02gTN87kSl5vmgI2lloNS1mYYXpV/PBgYUbXvY3cUC8hNc0hb2p4ZCblpDmlL27OCLHRhBmlP7bMiIjfNgWrNyyNtA/OapQodUcOrENteHCm5qaXujaXE7QwH1JoXRt729/VuLMVlt6gK1LqxFL8FXyh1hkCv8tynTrWm0PdruRtL7Radi7DejqU9uzKAWvNS24vz2Uy0KiAEQveIaBpAPOBvgzYUulShoYAQyC9VaChAqhBQ0jWTKmrNRlJBrdlICmrNc+6/HvvmzgFQa/b65+L1fjVWckNDC5AqnJfF7VC6hdSFG2GDiWQL6RHh1bK/ZC337eFqWMvW0BKLP0ewt6KfjZ7IIabqWyv3LNBAtXZQBb7ar16FgrgKa92bigurndS+UFeSeuxI7TspiKoNRFjnLcqB6m2+Z0iagQqvxHieDLt9GE0/z4ckCp38j8lwut2BPwoSkEFtQmd+rPsoDTRBHVqdB0qJ1uOvs7XAi5H47otUANSdNzPz08JyGW1IgL15By17NmAgJm9EIwA2q/1eIacHng9CgNUKJ0JD8MEF7uQymIUVhpPlo+C5RpN0u5H4yVaswB3lPOFnzhLd0/Vv7sRNm1K93wHtEZ7bZpbh9gVPl/+5n/zEPiddfKBxlNPfd61Ql//IWd/kzj+faf4BgOU7v31+uZHgf/D8glsE5PEPWNn8s/jHdgbha6PkxD+++BmEh0S9Aoyf97MsfgbmkSQvKuRfD5Phqt8BfySKlouV2pfpsPu0AX8UlH8R83fyhApNUYqk/J1U/yHLgUhrXQSlp0cI9UP6glFKrV/O0/0IwYEqqMkIDiTMfQg7jVb5wUeoO0qafY5obExUWtAG355XQFz/C+uf7qtNF4hORuDyppYKLQAbVA12g1tLv4uamy0BgcK+ei4Ac5MTHkSa56j/eSy/oZef3JBXLtMXOLgy9KhXcj/L7s9uSI/fS852NRRrngNqDlcRbu5+rsxVK6h6WNxL1h8e0Grc/07Gdg/TX+mWtZpvv3fHW76shFvnC61Gw/t+v383Hevf38/hbKuvs3VnZzgbE86reP+P9POJRCKRSCQSiUQi0VT+AQ3kfS6zc2yyAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: contain;}
